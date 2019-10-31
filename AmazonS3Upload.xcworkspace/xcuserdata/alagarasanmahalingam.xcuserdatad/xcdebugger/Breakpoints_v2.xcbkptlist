@@ -7,38 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4EF1A21D-09CC-4C44-ADA8-CA0C6854490D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AmazonS3Upload/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
-            landmarkName = "uploadButtonAction(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1D8C5FF7-245F-430A-B130-53AD13E192EF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AmazonS3Upload/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
-            landmarkName = "uploadButtonAction(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "C1D7C98F-4B0B-49CE-8401-225058317279"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -46,8 +14,8 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
             landmarkName = "getFolderSize(bucketName:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,8 +30,8 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "147"
-            endingLineNumber = "147"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
             landmarkName = "downloadFile()"
             landmarkType = "7">
          </BreakpointContent>
@@ -78,8 +46,8 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "207"
+            endingLineNumber = "207"
             landmarkName = "downloadFile()"
             landmarkType = "7">
          </BreakpointContent>
@@ -94,8 +62,8 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "155"
-            endingLineNumber = "155"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
             landmarkName = "downloadFile()"
             landmarkType = "7">
          </BreakpointContent>
@@ -110,9 +78,9 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
-            landmarkName = "downloadFile()"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "getFolderSize(bucketName:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -126,9 +94,9 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
-            landmarkName = "downloadFile()"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "getFolderSize(bucketName:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -142,42 +110,10 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "160"
-            endingLineNumber = "160"
+            startingLineNumber = "211"
+            endingLineNumber = "211"
             landmarkName = "downloadFile()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "BD36CF98-C639-4B73-BA23-39AA84C9B22A - f8cc7490cfe8b040"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AmazonS3Upload.ViewController.downloadFile() -&gt; ()"
-                  moduleName = "AmazonS3Upload"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alagarasanmahalingam/Desktop/Swift-Amazon-S3-Uploading-Tutorial-master/AmazonS3Upload/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "160"
-                  endingLineNumber = "160"
-                  offsetFromSymbolStart = "2196">
-               </Location>
-               <Location
-                  uuid = "BD36CF98-C639-4B73-BA23-39AA84C9B22A - b554047a7c75e675"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmazonS3Upload.ViewController.downloadFile() -&gt; ()"
-                  moduleName = "AmazonS3Upload"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alagarasanmahalingam/Desktop/Swift-Amazon-S3-Uploading-Tutorial-master/AmazonS3Upload/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "160"
-                  endingLineNumber = "160"
-                  offsetFromSymbolStart = "2072">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -190,9 +126,9 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "130"
-            endingLineNumber = "130"
-            landmarkName = "downloadFile()"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "getFolderSize(bucketName:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -206,10 +142,42 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "158"
-            endingLineNumber = "158"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
             landmarkName = "downloadFile()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B64DF629-6E37-4CAC-A230-9C55CF633570 - c0b9258336ce989a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AmazonS3Upload.ViewController.downloadFile() -&gt; ()"
+                  moduleName = "AmazonS3Upload"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alagarasanmahalingam/Desktop/AmazonS3/AmazonS3Upload/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "209"
+                  endingLineNumber = "209"
+                  offsetFromSymbolStart = "1776">
+               </Location>
+               <Location
+                  uuid = "B64DF629-6E37-4CAC-A230-9C55CF633570 - 8d2155698553ceaf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmazonS3Upload.ViewController.downloadFile() -&gt; ()"
+                  moduleName = "AmazonS3Upload"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alagarasanmahalingam/Desktop/AmazonS3/AmazonS3Upload/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "248">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -222,10 +190,10 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
-            landmarkName = "downloadFile()"
-            landmarkType = "7">
+            startingLineNumber = "195"
+            endingLineNumber = "195"
+            landmarkName = "ViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -238,8 +206,8 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "146"
-            endingLineNumber = "146"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
             landmarkName = "downloadFile()"
             landmarkType = "7">
          </BreakpointContent>
@@ -254,8 +222,8 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "146"
-            endingLineNumber = "146"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
             landmarkName = "downloadFile()"
             landmarkType = "7">
          </BreakpointContent>
@@ -270,8 +238,8 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "148"
-            endingLineNumber = "148"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
             landmarkName = "downloadFile()"
             landmarkType = "7">
          </BreakpointContent>
@@ -286,8 +254,8 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "154"
-            endingLineNumber = "154"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
             landmarkName = "downloadFile()"
             landmarkType = "7">
          </BreakpointContent>
@@ -302,40 +270,40 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "157"
-            endingLineNumber = "157"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
             landmarkName = "downloadFile()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "99479DEF-5833-493B-8EF5-F24C2F43B6CF - b554047a7c75e675"
+                  uuid = "99479DEF-5833-493B-8EF5-F24C2F43B6CF - c0b9258336ce989a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmazonS3Upload.ViewController.downloadFile() -&gt; ()"
+                  symbolName = "AmazonS3Upload.ViewController.downloadFile() -&gt; ()"
                   moduleName = "AmazonS3Upload"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alagarasanmahalingam/Desktop/Swift-Amazon-S3-Uploading-Tutorial-master/AmazonS3Upload/ViewController.swift"
+                  urlString = "file:///Users/alagarasanmahalingam/Desktop/AmazonS3/AmazonS3Upload/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "157"
-                  endingLineNumber = "157"
-                  offsetFromSymbolStart = "2028">
+                  startingLineNumber = "209"
+                  endingLineNumber = "209"
+                  offsetFromSymbolStart = "1776">
                </Location>
                <Location
-                  uuid = "99479DEF-5833-493B-8EF5-F24C2F43B6CF - b554047a7c75e675"
+                  uuid = "99479DEF-5833-493B-8EF5-F24C2F43B6CF - 8d2155698553ceaf"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmazonS3Upload.ViewController.downloadFile() -&gt; ()"
                   moduleName = "AmazonS3Upload"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alagarasanmahalingam/Desktop/Swift-Amazon-S3-Uploading-Tutorial-master/AmazonS3Upload/ViewController.swift"
+                  urlString = "file:///Users/alagarasanmahalingam/Desktop/AmazonS3/AmazonS3Upload/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "157"
-                  endingLineNumber = "157"
-                  offsetFromSymbolStart = "2276">
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "248">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -350,42 +318,10 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "159"
-            endingLineNumber = "159"
+            startingLineNumber = "210"
+            endingLineNumber = "210"
             landmarkName = "downloadFile()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4A11F191-E424-4695-9BEF-DDA549A50C70 - f8cc7490cfe8b040"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AmazonS3Upload.ViewController.downloadFile() -&gt; ()"
-                  moduleName = "AmazonS3Upload"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alagarasanmahalingam/Desktop/Swift-Amazon-S3-Uploading-Tutorial-master/AmazonS3Upload/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "160"
-                  endingLineNumber = "160"
-                  offsetFromSymbolStart = "2196">
-               </Location>
-               <Location
-                  uuid = "4A11F191-E424-4695-9BEF-DDA549A50C70 - b554047a7c75e675"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmazonS3Upload.ViewController.downloadFile() -&gt; ()"
-                  moduleName = "AmazonS3Upload"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alagarasanmahalingam/Desktop/Swift-Amazon-S3-Uploading-Tutorial-master/AmazonS3Upload/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "160"
-                  endingLineNumber = "160"
-                  offsetFromSymbolStart = "2072">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -398,42 +334,10 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "142"
-            endingLineNumber = "142"
-            landmarkName = "downloadFile()"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "getFolderSize(bucketName:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "852FAFC1-3059-484A-B552-8E6FAA044400 - f8cc7490cfe8b040"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AmazonS3Upload.ViewController.downloadFile() -&gt; ()"
-                  moduleName = "AmazonS3Upload"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alagarasanmahalingam/Desktop/Swift-Amazon-S3-Uploading-Tutorial-master/AmazonS3Upload/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "142"
-                  endingLineNumber = "142"
-                  offsetFromSymbolStart = "1776">
-               </Location>
-               <Location
-                  uuid = "852FAFC1-3059-484A-B552-8E6FAA044400 - b554047a7c75e675"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmazonS3Upload.ViewController.downloadFile() -&gt; ()"
-                  moduleName = "AmazonS3Upload"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alagarasanmahalingam/Desktop/Swift-Amazon-S3-Uploading-Tutorial-master/AmazonS3Upload/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "134"
-                  endingLineNumber = "134"
-                  offsetFromSymbolStart = "248">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -446,8 +350,8 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "161"
-            endingLineNumber = "161"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
             landmarkName = "downloadFile()"
             landmarkType = "7">
          </BreakpointContent>
@@ -462,8 +366,8 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "162"
-            endingLineNumber = "162"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
             landmarkName = "downloadFile()"
             landmarkType = "7">
          </BreakpointContent>
@@ -478,25 +382,9 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "138"
-            endingLineNumber = "138"
-            landmarkName = "downloadFile()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "300ED046-5995-4019-BF0C-4733A1F1806C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AmazonS3Upload/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
-            landmarkName = "uploadButtonAction(_:)"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
+            landmarkName = "getFolderSize(bucketName:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -510,56 +398,40 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "175"
-            endingLineNumber = "175"
-            landmarkName = "loadFileAsync(url:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "061406B4-EC3D-4CE5-B8DD-D7B7992C9CED"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AmazonS3Upload/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "208"
-            endingLineNumber = "208"
-            landmarkName = "saveFile(url:destination:completion:)"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
+            landmarkName = "downloadFile()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "061406B4-EC3D-4CE5-B8DD-D7B7992C9CED - 7e9a94ce401fcfa0"
+                  uuid = "F02BC73F-B6E7-4BBD-BF83-B269D8EF2D64 - c0b9258336ce989a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "AmazonS3Upload.ViewController.saveFile(url: Foundation.URL, destination: Foundation.URL, completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  symbolName = "AmazonS3Upload.ViewController.downloadFile() -&gt; ()"
                   moduleName = "AmazonS3Upload"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alagarasanmahalingam/Desktop/Swift-Amazon-S3-Uploading-Tutorial-master/AmazonS3Upload/ViewController.swift"
+                  urlString = "file:///Users/alagarasanmahalingam/Desktop/AmazonS3/AmazonS3Upload/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "208"
-                  endingLineNumber = "208"
-                  offsetFromSymbolStart = "160">
+                  startingLineNumber = "227"
+                  endingLineNumber = "227"
+                  offsetFromSymbolStart = "2196">
                </Location>
                <Location
-                  uuid = "061406B4-EC3D-4CE5-B8DD-D7B7992C9CED - 53f2af431aa5be6d"
+                  uuid = "F02BC73F-B6E7-4BBD-BF83-B269D8EF2D64 - 8d2155698553ceaf"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmazonS3Upload.ViewController.saveFile(url: Foundation.URL, destination: Foundation.URL, completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmazonS3Upload.ViewController.downloadFile() -&gt; ()"
                   moduleName = "AmazonS3Upload"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alagarasanmahalingam/Desktop/Swift-Amazon-S3-Uploading-Tutorial-master/AmazonS3Upload/ViewController.swift"
+                  urlString = "file:///Users/alagarasanmahalingam/Desktop/AmazonS3/AmazonS3Upload/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "207"
-                  endingLineNumber = "207"
-                  offsetFromSymbolStart = "292">
+                  startingLineNumber = "227"
+                  endingLineNumber = "227"
+                  offsetFromSymbolStart = "2072">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -567,15 +439,31 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BCDF3491-9A17-46D0-BF9E-D6FEFE99C851"
-            shouldBeEnabled = "Yes"
+            uuid = "061406B4-EC3D-4CE5-B8DD-D7B7992C9CED"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "198"
-            endingLineNumber = "198"
+            startingLineNumber = "259"
+            endingLineNumber = "259"
+            landmarkName = "loadFileAsync(url:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BCDF3491-9A17-46D0-BF9E-D6FEFE99C851"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmazonS3Upload/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "249"
+            endingLineNumber = "249"
             landmarkName = "loadFileAsync(url:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -584,14 +472,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "BD9881C0-D96E-4B2A-A14F-A7D7A5F80D68"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "200"
-            endingLineNumber = "200"
+            startingLineNumber = "251"
+            endingLineNumber = "251"
             landmarkName = "loadFileAsync(url:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -606,10 +494,10 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "241"
-            endingLineNumber = "241"
-            landmarkName = "documentPicker(_:didPickDocumentAt:)"
-            landmarkType = "7">
+            startingLineNumber = "292"
+            endingLineNumber = "292"
+            landmarkName = "ViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -622,10 +510,42 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "239"
-            endingLineNumber = "239"
-            landmarkName = "documentPicker(_:didPickDocumentAt:)"
+            startingLineNumber = "290"
+            endingLineNumber = "290"
+            landmarkName = "saveFile(url:destination:completion:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1B34EB3C-81FD-4897-BCA5-B1DF49E17689 - 46efc5ddb939e77a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AmazonS3Upload.ViewController.saveFile(url: Foundation.URL, destination: Foundation.URL, completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "AmazonS3Upload"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alagarasanmahalingam/Desktop/AmazonS3/AmazonS3Upload/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "290"
+                  endingLineNumber = "290"
+                  offsetFromSymbolStart = "636">
+               </Location>
+               <Location
+                  uuid = "1B34EB3C-81FD-4897-BCA5-B1DF49E17689 - 6b87fe50e38396b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AmazonS3Upload.ViewController.saveFile(url: Foundation.URL, destination: Foundation.URL, completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "AmazonS3Upload"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alagarasanmahalingam/Desktop/AmazonS3/AmazonS3Upload/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "290"
+                  endingLineNumber = "290"
+                  offsetFromSymbolStart = "1660">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -638,42 +558,10 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "240"
-            endingLineNumber = "240"
-            landmarkName = "documentPicker(_:didPickDocumentAt:)"
+            startingLineNumber = "291"
+            endingLineNumber = "291"
+            landmarkName = "saveFile(url:destination:completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "CF78BBDC-F91B-46DB-912B-43144A265019 - da42c27bb45c6b75"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AmazonS3Upload.ViewController.documentPicker(_: __C.UIDocumentPickerViewController, didPickDocumentAt: Foundation.URL) -&gt; ()"
-                  moduleName = "AmazonS3Upload"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alagarasanmahalingam/Desktop/Swift-Amazon-S3-Uploading-Tutorial-master/AmazonS3Upload/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "240"
-                  endingLineNumber = "240"
-                  offsetFromSymbolStart = "320">
-               </Location>
-               <Location
-                  uuid = "CF78BBDC-F91B-46DB-912B-43144A265019 - 604b8de8b958fd35"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in AmazonS3Upload.ViewController.documentPicker(_: __C.UIDocumentPickerViewController, didPickDocumentAt: Foundation.URL) -&gt; ()"
-                  moduleName = "AmazonS3Upload"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alagarasanmahalingam/Desktop/Swift-Amazon-S3-Uploading-Tutorial-master/AmazonS3Upload/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "238"
-                  endingLineNumber = "238"
-                  offsetFromSymbolStart = "116">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -686,9 +574,41 @@
             filePath = "AmazonS3Upload/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "230"
-            endingLineNumber = "230"
-            landmarkName = "pickDocument(url:)"
+            startingLineNumber = "281"
+            endingLineNumber = "281"
+            landmarkName = "saveFile(url:destination:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4EEF555-E84B-4400-8937-DD1DA1D1ABE1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmazonS3Upload/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "318"
+            endingLineNumber = "318"
+            landmarkName = "documentPicker(_:didPickDocumentAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B324873-4C9E-4000-ADA8-105E962D3D1E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmazonS3Upload/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "248"
+            endingLineNumber = "248"
+            landmarkName = "loadFileAsync(url:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

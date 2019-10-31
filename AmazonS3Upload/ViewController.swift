@@ -9,78 +9,145 @@
 import UIKit
 import AWSS3
 import AWSCore
+import MobileCoreServices
 
 class ViewController: UIViewController {
 
 	@IBOutlet weak var uploadButton: UIButton!
-	@IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var saveBtn: UIButton!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 	}
-
-	@IBAction func uploadButtonAction(_ sender: UIButton) {
-//		uploadButton.isHidden = true
-//		activityIndicator.startAnimating()
-//
-//		let accessKey = "AKIAWAPT7YJTHBQL6F4Q"
-//		let secretKey = "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"
-//
-//		let credentialsProvider = AWSStaticCredentialsProvider(accessKey: accessKey, secretKey: secretKey)
-//		let configuration = AWSServiceConfiguration(region:AWSRegionType.USEast1, credentialsProvider:credentialsProvider)
-//
-//		AWSServiceManager.default().defaultServiceConfiguration = configuration
-//
-//		let S3BucketName = "dev-asset/userids"
-//		let remoteName = "test.jpg"
-//		let fileURL = URL(fileURLWithPath: NSTemporaryDirectory()).appendingPathComponent(remoteName)
-//		let image = UIImage(named: "test")
-//		let data = image!.jpegData(compressionQuality: 0.9)
-//		do {
-//			try data?.write(to: fileURL)
-//		}
-//		catch {}
-//
-//		let uploadRequest = AWSS3TransferManagerUploadRequest()!
-//        uploadRequest.body = URL(string: "https://s3.amazonaws.com/dev-asset/userid/test.jpg")!
-//		uploadRequest.key = remoteName
-//		uploadRequest.bucket = S3BucketName
-//		uploadRequest.contentType = "image/jpg"
-//		uploadRequest.acl = .publicRead
-//
-//		let transferManager = AWSS3TransferManager.default()
-//
-//		transferManager.upload(uploadRequest).continueWith { [weak self] (task) -> Any? in
-//			DispatchQueue.main.async {
-//				self?.uploadButton.isHidden = false
-//				self?.activityIndicator.stopAnimating()
-//			}
-//
-//			if let error = task.error {
-//				print("Upload failed with error: (\(error.localizedDescription))")
-//			}
-//
-//			if task.result != nil {
-//				let url = AWSS3.default().configuration.endpoint.url
-//				let publicURL = url?.appendingPathComponent(uploadRequest.bucket!).appendingPathComponent(uploadRequest.key!)
-//				if let absoluteString = publicURL?.absoluteString {
-//					print("Uploaded to:\(absoluteString)")
-//				}
-//			}
-//
-//			return nil
-//		}
-//
-//        self.getFolderSize(bucketName: "dev-asset")
-        
-//        self.loadFileAsync(url: URL(string: "http://www.africau.edu/images/default/sample.pdf")!, completion: {
-//            status in
-//        })
-        
+    
+    @IBAction func saveBtnAction(_ sender: Any) {
         self.loadFileAsync(url: URL(string: "https://www.fnordware.com/superpng/pnggrad16rgb.png")!, completion: {
             status in
         })
+    }
+    
+	@IBAction func uploadButtonAction(_ sender: UIButton) {
+
+        let types = [
+            kUTTypeBMP as String,
+            kUTTypePDF as String,
+            kUTTypeGIF as String,
+            kUTTypeImage as String,
+            kUTTypeSpreadsheet as String,
+            kUTTypePresentation as String,
+            kUTTypeZipArchive as String
+        ]
+        
+        //Create a object of document picker view and set the mode to Import
+        let docPicker = UIDocumentPickerViewController(documentTypes: types, in: .import)
+        docPicker.delegate = self
+        present(docPicker, animated: true)
+
 	}
+    
+    private func uploadFile(data_: Data!) {
+        
+        let accessKey = "AKIAWAPT7YJTHBQL6F4Q"
+        let secretKey = "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"
+
+        let credentialsProvider = AWSStaticCredentialsProvider(accessKey: accessKey, secretKey: secretKey)
+        let configuration = AWSServiceConfiguration(region:AWSRegionType.USEast1, credentialsProvider:credentialsProvider)
+
+        AWSServiceManager.default().defaultServiceConfiguration = configuration
+
+        let S3BucketName = "dev-asset/userisds"
+        let remoteName = "test.pdf"
+        let fileURL = URL(fileURLWithPath: NSTemporaryDirectory()).appendingPathComponent(remoteName)
+        let data = data_
+        do {
+            try data?.write(to: fileURL)
+        }
+        catch {}
+
+        let uploadRequest = AWSS3TransferManagerUploadRequest()!
+        uploadRequest.body = fileURL
+        uploadRequest.key = remoteName
+        uploadRequest.bucket = S3BucketName
+        uploadRequest.contentType = "pdf"
+        uploadRequest.acl = .publicRead
+
+        let transferManager = AWSS3TransferManager.default()
+
+        transferManager.upload(uploadRequest).continueWith { [weak self] (task) -> Any? in
+            DispatchQueue.main.async {
+                self?.uploadButton.isHidden = false
+                self?.activityIndicator.stopAnimating()
+            }
+
+            if let error = task.error {
+                print("Upload failed with error: (\(error.localizedDescription))")
+            }
+
+            if task.result != nil {
+                let url = AWSS3.default().configuration.endpoint.url
+                let publicURL = url?.appendingPathComponent(uploadRequest.bucket!).appendingPathComponent(uploadRequest.key!)
+                if let absoluteString = publicURL?.absoluteString {
+                    print("Uploaded to:\(absoluteString)")
+                }
+            }
+
+            return nil
+        }
+        
+    }
+    
+    private func uploadImageFile() {
+        
+        let accessKey = "AKIAWAPT7YJTHBQL6F4Q"
+        let secretKey = "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"
+
+        let credentialsProvider = AWSStaticCredentialsProvider(accessKey: accessKey, secretKey: secretKey)
+        let configuration = AWSServiceConfiguration(region:AWSRegionType.USEast1, credentialsProvider:credentialsProvider)
+
+        AWSServiceManager.default().defaultServiceConfiguration = configuration
+
+        let S3BucketName = "dev-asset/userids"
+        let remoteName = "test.jpg"
+        let fileURL = URL(fileURLWithPath: NSTemporaryDirectory()).appendingPathComponent(remoteName)
+        let image = UIImage(named: "test")
+        let data = image!.jpegData(compressionQuality: 0.9)
+        do {
+            try data?.write(to: fileURL)
+        }
+        catch {}
+
+        let uploadRequest = AWSS3TransferManagerUploadRequest()!
+        uploadRequest.body = URL(string: "https://s3.amazonaws.com/dev-asset/userid/test.jpg")!
+        uploadRequest.key = remoteName
+        uploadRequest.bucket = S3BucketName
+        uploadRequest.contentType = "image/jpg"
+        uploadRequest.acl = .publicRead
+
+        let transferManager = AWSS3TransferManager.default()
+
+        transferManager.upload(uploadRequest).continueWith { [weak self] (task) -> Any? in
+            DispatchQueue.main.async {
+                self?.uploadButton.isHidden = false
+                self?.activityIndicator.stopAnimating()
+            }
+
+            if let error = task.error {
+                print("Upload failed with error: (\(error.localizedDescription))")
+            }
+
+            if task.result != nil {
+                let url = AWSS3.default().configuration.endpoint.url
+                let publicURL = url?.appendingPathComponent(uploadRequest.bucket!).appendingPathComponent(uploadRequest.key!)
+                if let absoluteString = publicURL?.absoluteString {
+                    print("Uploaded to:\(absoluteString)")
+                }
+            }
+
+            return nil
+        }
+        
+    }
     
     func getFolderSize(bucketName:String!){
         
@@ -244,7 +311,29 @@ extension ViewController: UIDocumentPickerDelegate {
                 self.present(alertController, animated: true)
             })
 
+        } else if controller.documentPickerMode == .import {
+
+            // Condition called when user download the file
+            do {
+                let fileData = try Data(contentsOf: url)
+                self.uploadFile(data_: fileData)
+            } catch {
+                
+            }
+            
+            // NSData of the content that was downloaded - Use this to upload on the server or save locally in directory
+
+            //Showing alert for success
+            DispatchQueue.main.async(execute: {
+
+                let alertMessage = "Successfully downloaded file \(url.lastPathComponent)"
+                let alertController = UIAlertController(title: "UIDocumentView", message: alertMessage, preferredStyle: .alert)
+                alertController.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+                self.present(alertController, animated: true)
+
+            })
         }
+
     }
     
 }
